@@ -1,0 +1,13 @@
+[KDE]
+SingleClick=False
+StartDragDist=8
+
+[General]
+fixed=Iosevka Term,14,-1,5,50,0,0,0,0,0,Regular
+font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+
+[WM]
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular

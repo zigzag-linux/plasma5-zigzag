@@ -1,0 +1,7 @@
+[Keyboard]
+RepeatDelay=500
+RepeatRate=30
+
+[Mouse]
+Acceleration=1
+Threshold=0

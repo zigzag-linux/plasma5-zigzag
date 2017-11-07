@@ -1,0 +1,12 @@
+[Plugins]
+appstreamrunnerEnabled=False
+bookmarksEnabled=False
+kwinEnabled=False
+locationsEnabled=False
+org.kde.activitiesEnabled=False
+org.kde.windowedwidgetsEnabled=False
+placesEnabled=False
+plasma-desktopEnabled=False
+recentdocumentsEnabled=False
+shellEnabled=False
+webshortcutsEnabled=False
