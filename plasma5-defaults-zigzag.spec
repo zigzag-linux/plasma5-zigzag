@@ -1,9 +1,9 @@
-Name:           zigzag-plasma
+Name:           plasma5-defaults-zigzag
 Version:        0
 Release:        0
 License:        GPL-3.0
 Group:          System/GUI/KDE
-Summary:        Default configuration for plasma desktop
+Summary:        Configuration of Plasma Desktop
 
 URL:            http://github.com/zigzag-linux
 Source0:        %{name}-%{version}.tar.gz
@@ -15,13 +15,13 @@ BuildRequires:  kf5-filesystem
 %autosetup
 
 %description
-Configuration files for Plasma Desktop install in Zigzag Linux
+This package contains standard configuration of Plasma Desktop for Zigzag
 
 %build
 
 %install
 install -d %{buildroot}
-cp -a zigzag-plasma/* %{buildroot}
+cp -a %{name}/* %{buildroot}
 
 %files
 %doc LICENSE
