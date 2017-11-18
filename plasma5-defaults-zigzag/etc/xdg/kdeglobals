@@ -1,6 +1,7 @@
 [KDE]
 SingleClick=False
 StartDragDist=8
+LookAndFeelPackage=zigzag
 
 [General]
 fixed=Iosevka Term,14,-1,5,50,0,0,0,0,0,Regular

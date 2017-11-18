@@ -31,5 +31,7 @@ cp -a %{name}/* %{buildroot}
 %config %{_kf5_configdir}/*
 %dir %{_datadir}/icons/default/
 %{_datadir}/icons/default/index.theme
+%dir %{_kf5_plasmadir}/look-and-feel
+%{_kf5_plasmadir}/look-and-feel/zigzag
 
 %changelog

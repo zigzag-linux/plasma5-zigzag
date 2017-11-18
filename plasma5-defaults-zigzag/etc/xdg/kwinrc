@@ -8,6 +8,7 @@ BorderActivateAll=9
 
 [Desktops]
 Number=4
+Rows=1
 
 [Compositing]
 AnimationSpeed=1
