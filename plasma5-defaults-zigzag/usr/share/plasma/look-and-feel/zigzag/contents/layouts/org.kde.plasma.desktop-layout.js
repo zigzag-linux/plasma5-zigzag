@@ -16,7 +16,7 @@ var layout = {
                     "showToolbox": "false"
                 },
                 "/Wallpaper/org.kde.image/General": {
-                    "Image": "/usr/share/wallpapers/openSUSEdefault/contents/images/3840x2400.png"
+                    "Image": "/usr/share/wallpapers/openSUSEdefault/contents/images/1920x1080.jpg"
                 }
             },
             "wallpaperPlugin": "org.kde.image"
