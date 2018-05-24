@@ -4,11 +4,11 @@ StartDragDist=8
 LookAndFeelPackage=zigzag
 
 [General]
-fixed=Iosevka Term,14,-1,5,50,0,0,0,0,0,Regular
-font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+fixed=Iosevka Term,14,-1,5,50,0,0,0,0,0
+font=Noto Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 
 [WM]
-activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0
