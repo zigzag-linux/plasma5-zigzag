@@ -16,6 +16,7 @@ var layout = {
                     "showToolbox": "false"
                 },
                 "/Wallpaper/org.kde.image/General": {
+                    "FillMode": "2",
                     "Image": "/usr/share/wallpapers/openSUSEdefault/contents/images/1920x1080.jpg"
                 }
             },
@@ -44,6 +45,9 @@ var layout = {
                         },
                         "/Configuration": {
                             "immutability": "1"
+                        },
+                        "/Configuration/General": {
+                            "wheelEnabled": "false"
                         }
                     },
                     "plugin": "org.kde.plasma.icontasks"
