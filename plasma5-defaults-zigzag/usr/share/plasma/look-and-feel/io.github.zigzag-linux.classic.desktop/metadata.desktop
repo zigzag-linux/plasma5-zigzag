@@ -1,7 +1,7 @@
 [Desktop Entry]
-Comment=Default look and feel of Zigzag Linux
-Name=Zigzag
-X-KDE-PluginInfo-Author=Maciek Krawiec
+Comment=Classic user-friendly layout for basic usage
+Name=Zigzag Classic
+X-KDE-PluginInfo-Author=Zigzag
 X-KDE-PluginInfo-Category=Plasma Look And Feel
 X-KDE-PluginInfo-Email=example@example.com
 X-KDE-PluginInfo-EnabledByDefault=true

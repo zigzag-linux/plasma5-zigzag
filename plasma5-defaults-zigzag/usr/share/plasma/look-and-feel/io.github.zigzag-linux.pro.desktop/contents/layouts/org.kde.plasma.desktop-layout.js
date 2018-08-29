@@ -32,17 +32,6 @@ var layout = {
                         "/": {
                             "immutability": "1"
                         },
-                        "/Configuration/General": {
-                            "favoritesPortedToKAstats": "true"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.kicker"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
                         "/Configuration": {
                             "immutability": "1"
                         },
@@ -107,3 +96,5 @@ var layout = {
 ;
 
 plasma.loadSerializedLayout(layout);
+
+locked = true;

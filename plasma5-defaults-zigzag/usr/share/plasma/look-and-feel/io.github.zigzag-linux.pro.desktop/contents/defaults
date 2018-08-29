@@ -1,0 +1,5 @@
+[Desktop][org.kde.plasma.desktop]
+Containment=org.kde.desktopcontainment
+
+[plasmarc][Theme]
+name=breeze-dark

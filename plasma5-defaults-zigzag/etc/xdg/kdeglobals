@@ -1,7 +1,7 @@
 [KDE]
 SingleClick=False
 StartDragDist=8
-LookAndFeelPackage=zigzag
+LookAndFeelPackage=io.github.zigzag-linux.classic.desktop
 
 [General]
 fixed=Iosevka Term,14,-1,5,50,0,0,0,0,0
