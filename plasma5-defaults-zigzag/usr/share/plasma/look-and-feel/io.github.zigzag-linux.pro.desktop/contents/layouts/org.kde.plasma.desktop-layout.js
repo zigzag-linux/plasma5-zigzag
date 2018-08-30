@@ -11,13 +11,6 @@ var layout = {
                     "immutability": "1",
                     "lastScreen": "0",
                     "wallpaperplugin": "org.kde.image"
-                },
-                "/General": {
-                    "showToolbox": "false"
-                },
-                "/Wallpaper/org.kde.image/General": {
-                    "FillMode": "2",
-                    "Image": "/usr/share/wallpapers/openSUSEdefault/contents/images/1920x1080.jpg"
                 }
             },
             "wallpaperPlugin": "org.kde.image"

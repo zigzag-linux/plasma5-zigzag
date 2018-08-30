@@ -1,5 +1,14 @@
 [Desktop][org.kde.plasma.desktop]
 Containment=org.kde.desktopcontainment
 
+[kdeglobals][KDE]
+widgetStyle=Breeze
+
+[kdeglobals][General]
+ColorScheme=Breeze Dark
+
+[kdeglobals][Icons]
+Theme=breeze-dark
+
 [plasmarc][Theme]
 name=breeze-dark

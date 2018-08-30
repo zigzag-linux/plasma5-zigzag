@@ -11,13 +11,6 @@ var layout = {
                     "immutability": "1",
                     "lastScreen": "0",
                     "wallpaperplugin": "org.kde.image"
-                },
-                "/General": {
-                    "showToolbox": "false"
-                },
-                "/Wallpaper/org.kde.image/General": {
-                    "FillMode": "2",
-                    "Image": "/usr/share/wallpapers/openSUSEdefault/contents/images/1920x1080.jpg"
                 }
             },
             "wallpaperPlugin": "org.kde.image"
@@ -61,6 +54,17 @@ var layout = {
                             "immutability": "1"
                         }
                     },
+                    "plugin": "org.kde.plasma.pager"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        },
+                        "/Configuration": {
+                            "immutability": "1"
+                        }
+                    },
                     "plugin": "org.kde.plasma.systemtray"
                 },
                 {
@@ -73,17 +77,6 @@ var layout = {
                         }
                     },
                     "plugin": "org.kde.plasma.digitalclock"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.pager"
                 }
             ],
             "config": {
@@ -94,7 +87,7 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 }
             },
-            "height": 3,
+            "height": 2,
             "hiding": "normal",
             "location": "bottom",
             "maximumLength": 9999,
