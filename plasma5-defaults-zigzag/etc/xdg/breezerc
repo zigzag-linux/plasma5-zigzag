@@ -1,2 +1,5 @@
 [Style]
 WindowDragMode=WD_NONE
+
+[Windeco]
+DrawTitleBarSeparator=false
