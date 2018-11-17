@@ -1,104 +1,101 @@
 var plasma = getApiVersion(1);
 
 var layout = {
-    "desktops": [
-        {
-            "applets": [
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "0",
-                    "immutability": "1",
-                    "lastScreen": "0",
-                    "wallpaperplugin": "org.kde.image"
-                }
-            },
-            "wallpaperPlugin": "org.kde.image"
+  desktops: [
+    {
+      applets: [],
+      config: {
+        "/": {
+          formfactor: "0",
+          immutability: "1",
+          lastScreen: "0",
+          wallpaperplugin: "org.kde.image"
         }
-    ],
-    "panels": [
+      },
+      wallpaperPlugin: "org.kde.image"
+    }
+  ],
+  panels: [
+    {
+      alignment: "left",
+      applets: [
         {
-            "alignment": "left",
-            "applets": [
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/General": {
-                            "favoritesPortedToKAstats": "true"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.kicker"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/General": {
-                            "wheelEnabled": "false"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.icontasks"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.pager"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.systemtray"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "immutability": "1"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.digitalclock"
-                }
-            ],
-            "config": {
-                "/": {
-                    "formfactor": "3",
-                    "immutability": "1",
-                    "lastScreen": "0",
-                    "wallpaperplugin": "org.kde.image"
-                }
+          config: {
+            "/": {
+              immutability: "1"
             },
-            "height": 2,
-            "hiding": "normal",
-            "location": "bottom",
-            "maximumLength": 9999,
-            "minimumLength": 9999,
-            "offset": 0
+            "/Configuration/General": {
+              favoritesPortedToKAstats: "true"
+            }
+          },
+          plugin: "org.kde.plasma.kicker"
+        },
+        {
+          config: {
+            "/": {
+              immutability: "1"
+            },
+            "/Configuration": {
+              immutability: "1"
+            },
+            "/Configuration/General": {
+              wheelEnabled: "false"
+            }
+          },
+          plugin: "org.kde.plasma.icontasks"
+        },
+        {
+          config: {
+            "/": {
+              immutability: "1"
+            },
+            "/Configuration": {
+              immutability: "1"
+            }
+          },
+          plugin: "org.kde.plasma.pager"
+        },
+        {
+          config: {
+            "/": {
+              immutability: "1"
+            },
+            "/Configuration": {
+              immutability: "1"
+            }
+          },
+          plugin: "org.kde.plasma.systemtray"
+        },
+        {
+          config: {
+            "/": {
+              immutability: "1"
+            },
+            "/Configuration": {
+              immutability: "1"
+            }
+          },
+          plugin: "org.kde.plasma.digitalclock"
         }
-    ],
-    "serializationFormatVersion": "1"
-}
-;
-
+      ],
+      config: {
+        "/": {
+          formfactor: "3",
+          immutability: "1",
+          lastScreen: "0",
+          wallpaperplugin: "org.kde.image"
+        }
+      },
+      height: 2,
+      hiding: "normal",
+      location: "bottom",
+      maximumLength: 9999,
+      minimumLength: 9999,
+      offset: 0
+    }
+  ],
+  serializationFormatVersion: "1"
+};
 plasma.loadSerializedLayout(layout);
 
 locked = true;
