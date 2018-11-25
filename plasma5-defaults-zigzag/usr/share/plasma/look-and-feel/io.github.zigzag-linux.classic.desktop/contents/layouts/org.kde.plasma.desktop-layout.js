@@ -23,9 +23,6 @@ var layout = {
           config: {
             "/": {
               immutability: "1"
-            },
-            "/Configuration/General": {
-              favoritesPortedToKAstats: "true"
             }
           },
           plugin: "org.kde.plasma.kicker"
