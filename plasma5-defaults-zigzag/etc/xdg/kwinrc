@@ -6,6 +6,12 @@ ButtonsOnRight=IAX
 [Effect-PresentWindows]
 BorderActivateAll=9
 
+[Effect-DesktopGrid]
+BorderWidth=40
+LayoutMode=1
+ShowAddRemove=false
+ZoomDuration=500
+
 [Desktops]
 Number=1
 Rows=1
@@ -14,10 +20,13 @@ Rows=1
 AnimationSpeed=1
 
 [TabBox]
-HighlightWindows=False
+DesktopMode=0
+HighlightWindows=false
 
 [Plugins]
-kwin4_effect_translucencyEnabled=False
-kwin4_effect_maximizeEnabled=False
-minimizeanimationEnabled=False
-slidingpopupsEnabled=False
+kwin4_effect_translucencyEnabled=false
+kwin4_effect_maximizeEnabled=false
+minimizeanimationEnabled=false
+slidingpopupsEnabled=false
+kwin4_effect_fadedesktopEnabled=true
+dimscreenEnabled=true
