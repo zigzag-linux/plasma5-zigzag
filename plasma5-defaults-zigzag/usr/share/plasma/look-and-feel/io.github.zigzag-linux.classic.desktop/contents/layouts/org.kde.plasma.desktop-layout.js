@@ -36,7 +36,8 @@ var layout = {
               immutability: "1"
             },
             "/Configuration/General": {
-              wheelEnabled: "false"
+              wheelEnabled: "false",
+              showOnlyCurrentDesktop: "false"
             }
           },
           plugin: "org.kde.plasma.icontasks"

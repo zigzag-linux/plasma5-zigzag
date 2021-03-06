@@ -28,7 +28,8 @@ var layout = {
               immutability: "1"
             },
             "/Configuration/General": {
-              wheelEnabled: "false"
+              wheelEnabled: "false",
+              showOnlyCurrentDesktop: "false"
             }
           },
           plugin: "org.kde.plasma.icontasks"
@@ -72,6 +73,7 @@ var layout = {
           formfactor: "3",
           immutability: "1",
           lastScreen: "0",
+          plugin: "org.kde.desktopcontainment",
           wallpaperplugin: "org.kde.image"
         }
       },
