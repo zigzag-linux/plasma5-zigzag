@@ -1,14 +1,20 @@
-[Desktop][org.kde.plasma.desktop]
-Containment=org.kde.desktopcontainment
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
+
+[kdeglobals][General]
+ColorScheme=BreezeDark
 
 [kdeglobals][KDE]
 widgetStyle=Breeze
 
-[kdeglobals][General]
-ColorScheme=Breeze Dark
+[kwinrc][DesktopSwitcher]
+LayoutName=org.kde.breeze.desktop
 
-[kdeglobals][Icons]
-Theme=breeze-dark
+[kwinrc][WindowSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.breeze
 
 [plasmarc][Theme]
 name=breeze-dark
