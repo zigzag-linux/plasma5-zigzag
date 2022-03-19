@@ -11,6 +11,13 @@ var layout = {
                     "immutability": "1",
                     "lastScreen": "0",
                     "wallpaperplugin": "org.kde.image"
+                },
+                "/General": {
+                    "popups": "false",
+                    "pressToMove": "true",
+                    "selectionMarkers": "false",
+                    "showToolbox": "false",
+                    "sortMode": "-1"
                 }
             },
             "wallpaperPlugin": "org.kde.image"
@@ -24,8 +31,23 @@ var layout = {
                     "config": {
                         "/": {
                             "immutability": "1"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.kicker"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        },
+                        "/Configuration/Configuration/General": {
+                            "maxStripes": "1",
+                            "showOnlyCurrentDesktop": "false",
+                            "wheelEnabled": "false"
                         },
                         "/Configuration/General": {
+                            "groupedTaskVisualization": "2",
+                            "launchers": "",
                             "maxStripes": "1",
                             "showOnlyCurrentDesktop": "false",
                             "wheelEnabled": "false"
@@ -37,9 +59,6 @@ var layout = {
                     "config": {
                         "/": {
                             "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "PreloadWeight": "60"
                         }
                     },
                     "plugin": "org.kde.plasma.systemtray"
