@@ -33,7 +33,23 @@ var layout = {
                             "immutability": "1"
                         }
                     },
-                    "plugin": "org.kde.plasma.kicker"
+                    "plugin": "org.kde.plasma.pager"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.digitalclock"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.systemtray"
                 },
                 {
                     "config": {
@@ -61,23 +77,7 @@ var layout = {
                             "immutability": "1"
                         }
                     },
-                    "plugin": "org.kde.plasma.systemtray"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.digitalclock"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        }
-                    },
-                    "plugin": "org.kde.plasma.pager"
+                    "plugin": "org.kde.plasma.kicker"
                 }
             ],
             "config": {
